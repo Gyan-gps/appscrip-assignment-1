@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #121212;
+  padding: 24px clamp(24px, 4.8vw, 92px);
+}
+.logo {
+  font-size: clamp(24px, 2vw, 36px);
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.li {
+  list-style: none;
+  .select{
+    background:transparent;
+    border: none;
+    font-size: clamp(16px,1vw,20px);
+    color:  var(--footer-50, #C6C6C6);;
+  }
+  .a {
+    color: #fff;
+    font-size: (16px,1vw,20px);
+  }
+}
+
+.navbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.navbtn button {
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.loginbtn {
+  background: transparent;
+}
+.signupbtn {
+  display: flex;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: var(--aa, linear-gradient(91deg, #7526f2 0%, #c826f2 100%));
+}
+
+.menu{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu img{
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 790px) {
+  .ul,
+  .navbtn {
+    display: none;
+  }
+  .menu{
+    display: flex;
+  }
+}

@@ -1,0 +1,7 @@
+.section4 {
+  margin-top: clamp(30px, 4vw, 80px);
+  .img {
+    width: 100% !important;
+    min-height: clamp(201px, 34vw, 663px);
+  }
+}

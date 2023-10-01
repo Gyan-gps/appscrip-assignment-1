@@ -1,0 +1,83 @@
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 20px 155px;
+  margin-top: clamp(40px,6.7vw,130px);
+  margin-bottom:20px ;
+}
+.logo {
+  color: #fff;
+  font-family: Raleway;
+  font-size: clamp(44px,3.75vw,72px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.company div,.programs div, .policy div, .follow div  {
+  color: #fff;
+  font-family: Roboto;
+  font-size: clamp(20px,1.5vw,28px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer ul{
+    padding: 0;
+    margin: 15px 0;
+    line-height: normal;
+}
+.footer li{
+    list-style: none;
+    margin: 12px 0;
+    line-height: normal;
+}
+.footer a{
+    position: relative;
+    text-decoration: none;color: #C6C6C6;
+    font-family: Roboto;
+    font-size: clamp(12px,1vw,20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer img{
+    max-width: clamp(20px,2vw,40px);
+    height: clamp(20px,2vw,40px);
+}
+
+.follow ul{
+    display: flex;
+    align-items: center;
+    gap: clamp(16px,1vw,20px);
+}
+
+@media screen and (max-width:480px){
+    .footer{
+        justify-content: center;
+        gap: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    .footer >div{
+        width: 100%;
+        text-align: center;
+    }
+    .follow div{
+        display: none;
+    }
+    .follow{
+        display: flex;
+        justify-content: center;
+    }
+    .footer ul{
+        margin: 8px 0;
+    }
+    .footer li{
+        margin: 0;
+    }
+}

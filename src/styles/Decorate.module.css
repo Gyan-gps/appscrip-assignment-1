@@ -18,24 +18,24 @@
   margin: auto;
 }
 .c1 {
-  width: clamp(145px, 40vw, 1256px);
-  height: clamp(145px, 40vw, 1256px);
+  width: clamp(145px, 62vw, 1256px);
+  height: clamp(145px, 62vw, 1256px);
   border: 1px dashed #3c3c3c;
 }
 .c2 {
-  width: clamp(167px, 46vw, 1456px);
-  height: clamp(167px, 46vw, 1456px);
+  width: clamp(167px, 72vw, 1456px);
+  height: clamp(167px, 72vw, 1456px);
   border: 1px solid #3a3644;
 }
 
 .c3 {
-  width: clamp(197px, 52vw, 1712px);
-  height: clamp(197px, 52vw, 1712px);
+  width: clamp(197px, 85vw, 1712px);
+  height: clamp(197px, 85vw, 1712px);
   border: 1px solid #3a3644;
 }
 .c4 {
-  width: clamp(221px, 60vw, 1920px);
-  height: clamp(221px, 60vw, 1920px);
+  width: clamp(221px, 100vw, 1920px);
+  height: clamp(221px, 100vw, 1920px);
   border: 1px solid #3a3644;
 }
 
@@ -49,47 +49,68 @@
   left: calc(50% - clamp(3px, 1vw, 20px));
 }
 .c11 {
-  transform: rotate(-150deg) translate(clamp(72.5px, 20vw, 658px))
+  transform: rotate(-150deg) translate(clamp(72.5px, 31vw, 658px))
     rotate(150deg);
 }
 .c12 {
-  transform: rotate(-30deg) translate(clamp(72.5px, 20vw, 658px)) rotate(30deg);
+  transform: rotate(-30deg) translate(clamp(72.5px, 31vw, 658px)) rotate(30deg);
 }
 .c21 {
-  transform: rotate(-165deg) translate(clamp(83.5px, 23vw, 728px))
+  transform: rotate(-165deg) translate(clamp(83.5px, 36vw, 728px))
     rotate(165deg);
 }
 .c22 {
-  transform: rotate(-195deg) translate(clamp(83.5px, 23vw, 728px))
+  transform: rotate(-195deg) translate(clamp(83.5px, 36vw, 728px))
     rotate(195deg);
 }
 .c23 {
-  transform: rotate(-33deg) translate(clamp(83.5px, 23vw, 728px)) rotate(33deg);
+  transform: rotate(-33deg) translate(clamp(83.5px, 36vw, 728px)) rotate(33deg);
 }
 .c24 {
-  transform: rotate(-15deg) translate(clamp(83.5px, 23vw, 728px)) rotate(15deg);
+  transform: rotate(-15deg) translate(clamp(83.5px, 36vw, 728px)) rotate(15deg);
 }
 .c25 {
-  transform: rotate(15deg) translate(clamp(83.5px, 23vw, 728px)) rotate(-15deg);
+  transform: rotate(15deg) translate(clamp(83.5px, 36vw, 728px)) rotate(-15deg);
 }
 .c31 {
-  transform: rotate(-160deg) translate(clamp(98.5px, 26vw, 856px))
+  transform: rotate(-160deg) translate(clamp(98.5px, 42.5vw, 856px))
     rotate(160deg);
 }
 .c32 {
-  transform: rotate(-180deg) translate(clamp(98.5px, 26vw, 856px))
+  transform: rotate(-180deg) translate(clamp(98.5px, 42.5vw, 856px))
     rotate(180deg);
 }
 .c33 {
-  transform: rotate(-195deg) translate(clamp(98.5px, 26vw, 856px))
+  transform: rotate(-195deg) translate(clamp(98.5px, 42.5vw, 856px))
     rotate(195deg);
 }
 .c34 {
-  transform: rotate(-20deg) translate(clamp(98.5px, 26vw, 856px)) rotate(20deg);
+  transform: rotate(-20deg) translate(clamp(98.5px, 42.5vw, 856px)) rotate(20deg);
 }
 .c35 {
-  transform: rotate(0deg) translate(clamp(98.5px, 26vw, 856px)) rotate(0deg);
+  transform: rotate(0deg) translate(clamp(98.5px, 42.5vw, 856px)) rotate(0deg);
 }
 .c36 {
-  transform: rotate(15deg) translate(clamp(98.5px, 26vw, 856px)) rotate(15deg);
+  transform: rotate(15deg) translate(clamp(98.5px, 42.5vw, 856px)) rotate(15deg);
+}
+
+
+@media screen and (max-width:480px){
+  .c1 {
+    width: 145px;
+    height: 145px;
+  }
+  .c2 {
+    width: 167px;
+    height: 167px;
+  }
+  
+  .c3 {
+    width: 197px;
+    height: 197px;
+  }
+  .c4 {
+    width: 221px;
+    height: 221px;
+  }
 }
